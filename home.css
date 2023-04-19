@@ -157,8 +157,23 @@ button a:hover{
   }
 }
 
+@media screen and (max-width:600px) {
+  .purple{
+    background-color: #ee11d1;
+    height: auto;
+    color: white;
+  }
+}
 
 @media screen and (max-width:998px) {
+  .cyan{
+    background-color: #8973b3;
+    height: auto;
+    color: white;
+  }
+}
+
+@media screen and (max-width:600px) {
   .cyan{
     background-color: #8973b3;
     height: auto;
@@ -174,6 +189,13 @@ button a:hover{
   }
 }
 
+@media screen and (max-width:600px) {
+  .magenta{
+    background-color: #4e88c7;
+    height: auto;
+    color: white;
+  }
+}
 
 
 .orange{
