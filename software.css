@@ -170,14 +170,17 @@ margin-right: 30px;
 
 .faith{
   display: flex;
+  flex-wrap: wrap;
   background-color: #333;
-  justify-content: space-around;
+  justify-content:center;
   height: 150px;
   align-items: center;
 }
 
 .faith-list{
   display: flex;
+  border-right: 1px solid white;
+  padding: 10px;
 }
 
 .faith-list a{
@@ -186,13 +189,13 @@ margin-right: 30px;
   padding-left: 20px;
 }
 
-@media screen and (max-width: 600px) {
-  .faith-list a,{
+@media screen and (max-width: 998px) {
+  .faith-list{
     display: none;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width:998px) {
   .faith-list p{
     display: none;
   }
@@ -205,13 +208,13 @@ margin-right: 30px;
 .faith-liste{
   display: flex;
   justify-content: flex-end;
-  margin-left: 50px;
+
 }
 
 @media screen and (max-width: 600px) {
   .faith-liste{
     display:flex;
-margin-right: 130px;
+
   }
 }
 
@@ -220,3 +223,4 @@ margin-right: 130px;
   color: white;
   font-size: 20px;
 }
+
